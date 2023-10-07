@@ -22,16 +22,13 @@
     <a href="./Aboutus.html">AboutUs</a>
     <hr color="#30FE29" />
     <form>
-      <label for="fname">First Name</label><br />
-      <input type="text" placeholder="First Name" /><br />
-      <label for="lname">Last Name</label><br />
-      <input type="text" placeholder="Last Name" /><br />
-      <label for="">Select Your Gender</label><br />
-      <input type="radio" id="html" name="fav_language" value="HTML" />
-      <label for="html">Male</label><br />
-      <input type="radio" id="css" name="fav_language" value="CSS" />
-      <label for="css">Female</label><br />
-      <input type="button" value="Sabmit" />
+      <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <input type="submit" value="Submit">
+      </form>
     </form>
   </body>
 </html>
